@@ -1,7 +1,19 @@
-version: '3.8'
+version: "3.8"
+
 services:
-  mongodb:
+  mongo:
     image: mongo
-    container_name: habit-tracker-db
+    container_name: habit-tracker-mongo
     ports:
       - "27017:27017"
+
+  api:
+    build: .
+    container_name: habit-tracker-api
+    ports:
+      - "3000:3000"
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/habit-tracker
+      - JWT_SECRET=sua-chave-secreta
+    depends_on:
+      - mongo
