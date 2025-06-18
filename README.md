@@ -83,8 +83,8 @@ PORT=3000
 ## 📫 Contato
 
 - Nome: Rafael Duarte
-- LinkedIn: [https://linkedin.com/in/seu-linkedin](https://linkedin.com/in/seu-linkedin)
-- GitHub: [https://github.com/seu-usuario](https://github.com/seu-usuario)
+- LinkedIn: [https://www.linkedin.com/in/rafaduarts/](https://www.linkedin.com/in/rafaduarts/)
+- GitHub: [https://github.com/rafaduarts](https://github.com/rafaduarts)
 
 ---
 
