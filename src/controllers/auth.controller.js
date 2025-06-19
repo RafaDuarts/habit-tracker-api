@@ -20,6 +20,7 @@ export const signup = async (req, res) => {
 
     res.status(201).json({ message: 'Usuário criado com sucesso', id: newUser._id });
   } catch (error) {
+    console.error('Erro no signup: ', error);
     res.status(500).json({ error: error.message });
   }
 };
